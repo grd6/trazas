@@ -52,7 +52,7 @@ class format_File():
                 if not fname.endswith(".pdf"):
                     os.remove(os.path.join(dirName) + '\\' + fname)
                     print('Limpiando archivos innecesario: %s' % fname)
-                    time.sleep(0.1)
+                    time.sleep(0.2)
         for dirName, subdirList, fileList in os.walk(rootDir2):
 
             print('Limpiando archivos innecesario: %s' % dirName)
@@ -122,14 +122,27 @@ class move_File():
 
 if __name__ == '__main__':
 
-    a = input("ingrese ubicacion:")
-    b = a
-    f = format_File(a, b)
-    s = move_File(a, b)
-    f.erase_file()
-    f.rename_folder()
-    s.seperate_Files()
-    f.delete_file()
-    f.rename_file()
-    print("!!!!!!!!!!!!!!!!SUS TRAZAS SE ENCUENTRAN LISTA PARA EL ENVIO al Mandante!!!!!!!!!!!!!!!!!!! " "\n")
+   # a = input("ingrese ubicacion:")
+    #b = a
+    #f = format_File(a, b)
+    #s = move_File(a, b)
+    #f.erase_file()
+    #f.rename_folder()
+    #s.seperate_Files()
+    #f.delete_file()
+    #f.rename_file()
+    print("!!!!!!!!!!!!!!!!SUS TRAZAS SE ENCUENTRAN LISTA PARA EL ENVIO al MANDANTE!!!!!!!!!!!!!!!!!!! " "\n")
     print("*****Programa realizado por el Departamento de Coordianacion de Proyectos de redes CATV*****" "\n")
+    print("sSSs   .S_SSSs    sdSS_SSSSSSbs   .S    S.          .S_sSSs      sSSs   .S_sSSs      sSSs    sSSs")
+    print("d%%SP  .SS~SSSSS   YSSS~S%SSSSSP  .SS    SS.        .SS~YS%%b    d%%SP  .SS~YS%%b    d%%SP   d%%SP")
+    print("d%S'    S%S   SSSS       S%S       S%S    S%S        S%S   `S%b  d%S'    S%S   `S%b  d%S'    d%S'")
+    print("S&S     S%S SSSS%S       S&S       S&S    S%S        S%S    d*S  S&S     S%S    S&S  S&S     S&S ")
+    print("S&S     S&S  SSS%S       S&S       S&S    S&S        S&S   .S*S  S&S_Ss  S&S    S&S  S&S_Ss  Y&Ss")
+    print("S&S     S&S    S&S       S&S       S&S    S&S        S&S_sdSSS   S&S~SP  S&S    S&S  S&S~SP  `S&&S")
+    print("S&S     S&S    S&S       S&S       S&S    S&S        S&S~YSY%b   S&S     S&S    S&S  S&S       `S*S")
+    print("S*b     S*S    S&S       S*S       S*b    S*S        S*S   `S%b  S*b     S*S    d*S  S*b        l*S")
+    print("S*S.    S*S    S*S       S*S       S*S.   S*S        S*S    S%S  S*S.    S*S   .S*S  S*S.      .S*P")
+    print("SSSbs  S*S    S*S       S*S        SSSbs_S*S        S*S    S&S   SSSbs  S*S_sdSSS    SSSbs  sSS*S")
+    print("YSSP  SSS    S*S       S*S         YSSP~SSS        S*S    SSS    YSSP  SSS~YSSY      YSSP  YSS'")
+    print("             SP        SP                          SP")
+    print("             Y         Y                           Y ")
